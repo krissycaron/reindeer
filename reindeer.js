@@ -16,13 +16,13 @@
 //  }
 
 
+// //sort, reverse, make a string
+// var finalAnswer =colors.sort().reverse().join(" cat ");
 
-
-
-
-
-
-
+// //sort  = puts them in alpha order
+// //reverse = switches the order
+// //join = join takes the array and puts the word "cat" in between each index
+// console.log("finalAnswer", finalAnswer);
 
 
 
@@ -30,13 +30,13 @@ var colors = ["Blue", "Red", "Orange", "Purple", "Hazel", "Aquamarine", "Periwin
 var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"];
 
 
-var hohohoElement = document.getElementById("coloredReindeer");
+// var hohohoElement = document.getElementById("coloredReindeer");
 
-for (var i=0; i <reindeer.length, i++) {
+for (var i=0; i < reindeer.length; i++) {
 
-	
+	var hohohoElement =colors.sort().reverse().join();
 }
-
+console.log(hohohoElement);
 
 
 
