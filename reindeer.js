@@ -30,13 +30,14 @@ var colors = ["Blue", "Red", "Orange", "Purple", "Hazel", "Aquamarine", "Periwin
 var reindeer = ["Dasher", "Dancer", "Prancer", "Vixen", "Comet", "Cupid", "Donner", "Blitzen"];
 
 
-// var hohohoElement = document.getElementById("coloredReindeer");
+var hohohoElement = document.getElementById("coloredReindeer");
 
 for (var i=0; i < reindeer.length; i++) {
 
-	var hohohoElement =colors.sort().reverse().join();
+	innerHTML = "colors [i] + ", " + reindeer[i]"
+ 
 }
-console.log(hohohoElement);
+
 
 
 
